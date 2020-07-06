@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Basic Responsive Grid</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    /*
+      Violet = 770eff
+      Blue = 0ad8ff
+      Green = 12edae
+    */
+    /* Demo Styles */
+    :root {
+      --box-shadow: 0 -8px 8px -2px rgba(255, 255, 255, .4), 8px 0 8px -2px rgba(0, 10, 20, .1), 0 8px 8px -2px rgba(0, 10, 20, .1), -8px 0 8px -2px rgba(255, 255, 255, .4);
+      --box-shadow-hover: 0 -4px 4px -2px rgba(255, 255, 255, .4), 4px 0 4px -2px rgba(0, 10, 20, .1), 0 4px 4px -2px rgba(0, 10, 20, .1), -4px 0 4px -2px rgba(255, 255, 255, .4);
+    }
+    body {
+      background-color: #D6E1F0;
+      color: #222426;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    a {
+      text-decoration: none;
+    }
+    h1, h2, h3 {
+      color: #32456D;
+    }
+    h1 {
+      line-height: 38px;
+      margin-bottom: 15px;
+    }
+    h3 {
+      margin: 70px 0 5px 0;
+    }
+    p {
+      line-height: 1.4;
+    }
+    .block {
+      width: 100%;
+      height: 50px;
+      background-color: #0ad8ff;
+      border-radius: 8px;
+    }
+    .logo {
+      width: 150px;
+      height: 29px;
+      margin-bottom: 15px;
+    }
+    .navbar > .container > .row > .col {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .navbar > .container > .row > .col > ul {
+      display: flex;
+      flex-flow: row wrap;
+      list-style-type: none;
+      list-style-position: inside;
+      margin: 0 0 0 25px;
+      padding: 0;
+    }
+    .navbar > .container > .row > .col > ul > li {
+      margin: 0 25px 15px 0;
+    }
+    .navbar > .container > .row > .col > ul > li:first-of-type {
+      margin-left: 20px;
+    }
+    .navbar > .container > .row > .col > ul > li:last-of-type {
+      margin-right: 0;
+    }
+    .navbar > .container > .row > .col > ul > li > a {
+      border-radius: 8px;
+      box-shadow: var(--box-shadow);
+      color: #32456D;
+      display: flex;
+      font-size: 16px;
+      font-weight: 400;
+      align-items: center;
+      padding: 10px 20px;
+      transition: all .2s;
+    }
+    .navbar > .container > .row > .col > ul > li > a.get-started {
+      font-weight: 700;
+    }
+    .navbar > .container > .row > .col > ul > li > a:hover {
+      box-shadow: var(--box-shadow-hover);
+      color: black;
+    }
+    .navbar > .container > .row > .col > ul > li > a.get-started:hover {
+      background-color: #770eff;
+      color: white;
+    }
+    footer {
+      margin-top: 50px;
+    }
+    @media (max-width: 768px) {
+      .navbar > .container > .row > .col > ul {
+        margin: 0;
+      }
+      .navbar > .container > .row > .col > ul > li:first-of-type {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <div class="row">
+        <div class="col sm-12 md-12 lg-2 xl-2">
+          <img src="./images/logo-violet.png" alt="initstyle" class="logo" />
+        </div>
+        <div class="col sm-12 md-12 lg-10 xl-10">
+          <ul>
+            <li>
+              <a href="#" class="get-started">Get started</a>
+            </li>
+            <li>
+              <a href="#">Documentation</a>
+            </li>
+            <li>
+              <a href="#">Themes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Responsive and lightweight grid<br />for your sites with initstyle</h1>
+        <p>
+          For now, initstyle is a simplest grid system based on Flexbox.<br />Coming soon will be a css framework with components and classes.
+        </p>
+        <h3>Basic grid example</h3>
+      </div>
+      <div class="col sm-12 md-4 lg-3 xl-4">
+	      <div class="block"></div>
+      </div>
+      <div class="col sm-12 md-8 lg-4 xl-4">
+	      <div class="block"></div>
+      </div>
+      <div class="col sm-12 md-12 lg-5 xl-4">
+	      <div class="block"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col sm-12 md-7 lg-4 xl-2">
+	      <div class="block"></div>
+      </div>
+      <div class="col sm-12 md-5 lg-5 xl-5">
+	      <div class="block"></div>
+      </div>
+      <div class="col sm-12 md-12 lg-3 xl-5">
+	      <div class="block"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <strong>initstyle 2020</strong> - Desarrollado con toda la ilusión para ahorrarte tiempo y trabajo.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
