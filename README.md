@@ -1,6 +1,6 @@
 ![](images/logo-violet-min.png)
 
-### Simplest grid system based on Flexbox.
+### Simplest grid system based on Flexbox
 
 [![HitCount](http://hits.dwyl.com/Mathiew82/initstyle.svg)](http://hits.dwyl.com/Mathiew82/initstyle)
 
