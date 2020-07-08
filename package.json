@@ -1,0 +1,33 @@
+{
+  "name": "initstyle",
+  "version": "1.0.0",
+  "description": "Simplest grid system based on Flexbox.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathiew82/initstyle.git"
+  },
+  "keywords": [
+    "css",
+    "styles",
+    "grid",
+    "flexbox"
+  ],
+  "author": "Alberto Mateo Alcalá",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mathiew82/initstyle/issues"
+  },
+  "homepage": "https://github.com/Mathiew82/initstyle#readme",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.8.4",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0"
+  }
+}

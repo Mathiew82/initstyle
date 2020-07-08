@@ -4,81 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Simplest CSS Grid System Based on Flexbox</title>
-  <link rel="stylesheet" href="css/styles.css" />
-  <style>
-    /* Demo Styles */
-    :root {
-      --violet-color  : #770eff;
-      --blue-color    : #0ad8ff;
-      --green-color   : #12edae;
-      --box-shadow-n  : 0 -6px 6px -2px rgba(255, 255, 255, .4),
-                        6px 0 6px -2px rgba(0, 10, 20, .1),
-                        0 6px 6px -2px rgba(0, 10, 20, .1),
-                        -6px 0 6px -2px rgba(255, 255, 255, .4);
-      --box-shadow-h  : 0 -3px 3px -2px rgba(255, 255, 255, .4),
-                        3px 0 3px -2px rgba(0, 10, 20, .1),
-                        0 3px 3px -2px rgba(0, 10, 20, .1),
-                        -3px 0 3px -2px rgba(255, 255, 255, .4);
-      --margin-std    : 15px;
-      --margin-std-2  : 25px;
-      --padding-std   : 10px;
-      --padding-std-2 : 20px;
-    }
-    body {
-      background-color: #D6E1F0;
-      color: #222426;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    a {
-      color: var(--violet-color);
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    h1, h2, h3 {
-      color: #32456D;
-    }
-    h1 {
-      line-height: 38px;
-      margin-bottom: var(--margin-std);
-    }
-    h3 {
-      margin: 70px 0 5px 0;
-    }
-    p {
-      line-height: 1.4;
-    }
-    .logo {
-      width: 150px;
-      height: 29px;
-      margin: 6px 0 var(--margin-std) 0;
-    }
-    .wrapper-download {
-      font-size: 20px;
-      margin-top: 40px;
-    }
-    .wrapper-download a {
-      font-weight: 700;
-    }
-    .block {
-      width: 100%;
-      height: 50px;
-      background-color: #0ad8ff;
-      border-radius: 8px;
-    }
-    footer {
-      margin-top: 50px;
-    }
-    @media (max-width: 768px) {
-      .wrapper-menu__list {
-        margin: 0;
-      }
-      .wrapper-menu__list > li:first-of-type {
-        margin-left: 0;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="build/styles.css" />
+  <link rel="stylesheet" href="css/prism.css" />
+  <link rel="stylesheet" href="css/theme.css" />
 </head>
 <body>
 
@@ -94,37 +22,61 @@
 
   <div class="container">
     <div class="row">
-      <div class="col">
-        <h1>Responsive and lightweight grid<br />for your sites with initstyle</h1>
+      <div class="col sm-12 md-5 lg-5 xl-5">
+        <h1>Responsive and lightweight grid for your sites with initstyle</h1>
         <p>
-          For now, initstyle is a simplest grid system based on Flexbox.<br />Coming soon will be a css framework with components and classes.
+          For now, initstyle is a simplest grid system based on Flexbox. Coming soon will be a css framework with components and classes.
         </p>
-        <h3>Basic example:</h3>
       </div>
-      <div class="col sm-12 md-4 lg-3 xl-4">
-	      <div class="block"></div>
-      </div>
-      <div class="col sm-12 md-8 lg-4 xl-4">
-	      <div class="block"></div>
-      </div>
-      <div class="col sm-12 md-12 lg-5 xl-4">
-	      <div class="block"></div>
-      </div>
+      <div class="col sm-12 md-7 lg-7 xl-7"></div>
     </div>
     <div class="row">
+      <div class="col">
+        <h3>Basic example:</h3>
+
+        <pre id="code-buttons"><code class="language-html">&lt;div class="row"&gt;
+  &lt;div class="col sm-12 md-4 lg-3 xl-4"&gt;
+    &lt;div class="block"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="col sm-12 md-8 lg-4 xl-4"&gt;
+    &lt;div class="block"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="col sm-12 md-12 lg-5 xl-4"&gt;
+    &lt;div class="block"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="col sm-12 md-7 lg-4 xl-2"&gt;
+    &lt;div class="block"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="col sm-12 md-5 lg-5 xl-5"&gt;
+    &lt;div class="block"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="col sm-12 md-12 lg-3 xl-5"&gt;
+    &lt;div class="block"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+      </div>
+      <div class="col sm-12 md-4 lg-3 xl-4">
+        <div class="block"></div>
+      </div>
+      <div class="col sm-12 md-8 lg-4 xl-4">
+        <div class="block"></div>
+      </div>
+      <div class="col sm-12 md-12 lg-5 xl-4">
+        <div class="block"></div>
+      </div>
       <div class="col sm-12 md-7 lg-4 xl-2">
-	      <div class="block"></div>
+        <div class="block"></div>
       </div>
       <div class="col sm-12 md-5 lg-5 xl-5">
-	      <div class="block"></div>
+        <div class="block"></div>
       </div>
       <div class="col sm-12 md-12 lg-3 xl-5">
-	      <div class="block"></div>
+        <div class="block"></div>
       </div>
     </div>
     <div class="row wrapper-download">
       <div class="col">
-        To use, just <a href="https://raw.githubusercontent.com/Mathiew82/initstyle/master/css/styles.css">download</a> and add the file to your project
+        To use, just <a href="https://raw.githubusercontent.com/Mathiew82/initstyle/master/build/styles.css">download</a> and add the file to your project
       </div>
     </div>
   </div>
@@ -138,6 +90,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="js/prism.js"></script>
 
 </body>
 </html>

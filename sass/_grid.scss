@@ -23,64 +23,64 @@
 
 // XL Size
 @media (min-width: 993px) {
-  .xl-1  { width: 8.333333%;  }
-  .xl-2  { width: 16.666666%; }
-  .xl-3  { width: 25%;        }
-  .xl-4  { width: 33.333333%; }
-  .xl-5  { width: 41.666666%; }
-  .xl-6  { width: 50%;        }
-  .xl-7  { width: 58.333333%; }
-  .xl-8  { width: 66.666666%; }
-  .xl-9  { width: 74.999997%; }
-  .xl-10 { width: 83.333333%; }
-  .xl-11 { width: 91.666666%; }
-  .xl-12 { width: 100%;       }
+  .xl-1  { width: $width-1;  }
+  .xl-2  { width: $width-2;  }
+  .xl-3  { width: $width-3;  }
+  .xl-4  { width: $width-4;  }
+  .xl-5  { width: $width-5;  }
+  .xl-6  { width: $width-6;  }
+  .xl-7  { width: $width-7;  }
+  .xl-8  { width: $width-8;  }
+  .xl-9  { width: $width-9;  }
+  .xl-10 { width: $width-10; }
+  .xl-11 { width: $width-11; }
+  .xl-12 { width: $width-12; }
 }
 
 // LG Size
 @media (max-width: 992px) {
-  .lg-1  { width: 8.333333%;  }
-  .lg-2  { width: 16.666666%; }
-  .lg-3  { width: 25%;        }
-  .lg-4  { width: 33.333333%; }
-  .lg-5  { width: 41.666666%; }
-  .lg-6  { width: 50%;        }
-  .lg-7  { width: 58.333333%; }
-  .lg-8  { width: 66.666666%; }
-  .lg-9  { width: 74.999997%; }
-  .lg-10 { width: 83.333333%; }
-  .lg-11 { width: 91.666666%; }
-  .lg-12 { width: 100%;       }
+  .lg-1  { width: $width-1;  }
+  .lg-2  { width: $width-2;  }
+  .lg-3  { width: $width-3;  }
+  .lg-4  { width: $width-4;  }
+  .lg-5  { width: $width-5;  }
+  .lg-6  { width: $width-6;  }
+  .lg-7  { width: $width-7;  }
+  .lg-8  { width: $width-8;  }
+  .lg-9  { width: $width-9;  }
+  .lg-10 { width: $width-10; }
+  .lg-11 { width: $width-11; }
+  .lg-12 { width: $width-12; }
 }
 
 // MD Size
 @media (max-width: 768px) {
-  .md-1  { width: 8.333333%;  }
-  .md-2  { width: 16.666666%; }
-  .md-3  { width: 25%;        }
-  .md-4  { width: 33.333333%; }
-  .md-5  { width: 41.666666%; }
-  .md-6  { width: 50%;        }
-  .md-7  { width: 58.333333%; }
-  .md-8  { width: 66.666666%; }
-  .md-9  { width: 74.999997%; }
-  .md-10 { width: 83.333333%; }
-  .md-11 { width: 91.666666%; }
-  .md-12 { width: 100%;       }
+  .md-1  { width: $width-1;  }
+  .md-2  { width: $width-2;  }
+  .md-3  { width: $width-3;  }
+  .md-4  { width: $width-4;  }
+  .md-5  { width: $width-5;  }
+  .md-6  { width: $width-6;  }
+  .md-7  { width: $width-7;  }
+  .md-8  { width: $width-8;  }
+  .md-9  { width: $width-9;  }
+  .md-10 { width: $width-10; }
+  .md-11 { width: $width-11; }
+  .md-12 { width: $width-12; }
 }
 
 // SM Size
 @media (max-width: 576px) {
-  .sm-1  { width: 8.333333%;  }
-  .sm-2  { width: 16.666666%; }
-  .sm-3  { width: 25%;        }
-  .sm-4  { width: 33.333333%; }
-  .sm-5  { width: 41.666666%; }
-  .sm-6  { width: 50%;        }
-  .sm-7  { width: 58.333333%; }
-  .sm-8  { width: 66.666666%; }
-  .sm-9  { width: 74.999997%; }
-  .sm-10 { width: 83.333333%; }
-  .sm-11 { width: 91.666666%; }
-  .sm-12 { width: 100%;       }
+  .sm-1  { width: $width-1;  }
+  .sm-2  { width: $width-2;  }
+  .sm-3  { width: $width-3;  }
+  .sm-4  { width: $width-4;  }
+  .sm-5  { width: $width-5;  }
+  .sm-6  { width: $width-6;  }
+  .sm-7  { width: $width-7;  }
+  .sm-8  { width: $width-8;  }
+  .sm-9  { width: $width-9;  }
+  .sm-10 { width: $width-10; }
+  .sm-11 { width: $width-11; }
+  .sm-12 { width: $width-12; }
 }
