@@ -1,16 +1,16 @@
 // Home Theme
-$violet-color  : #770eff;
-$blue-color    : #0ad8ff;
-$green-color   : #12edae;
-$box-shadow-n  : 0 -6px 6px -2px rgba(255, 255, 255, .4),
+$violet-color : #770eff;
+$blue-color   : #0ad8ff;
+$green-color  : #12edae;
+$box-shadow-n : 0 -6px 6px -2px rgba(255, 255, 255, .4),
                 6px 0 6px -2px rgba(0, 10, 20, .1),
                 0 6px 6px -2px rgba(0, 10, 20, .1),
                 -6px 0 6px -2px rgba(255, 255, 255, .4);
-$box-shadow-h  : 0 -3px 3px -2px rgba(255, 255, 255, .4),
+$box-shadow-h : 0 -3px 3px -2px rgba(255, 255, 255, .4),
                 3px 0 3px -2px rgba(0, 10, 20, .1),
                 0 3px 3px -2px rgba(0, 10, 20, .1),
                 -3px 0 3px -2px rgba(255, 255, 255, .4);
-$margin-std    : 15px;
+$margin-std   : 15px;
 
 body {
   background-color: #D6E1F0;
@@ -48,8 +48,7 @@ p {
 }
 
 .logo {
-  width: 150px;
-  height: 29px;
+  width: 180px;
   margin: 6px 0 $margin-std 0;
 }
 

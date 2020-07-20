@@ -1,4 +1,4 @@
-![](images/logo-violet-min.png)
+![](images/logo-violet.png)
 
 ### Simplest grid system based on Flexbox
 
