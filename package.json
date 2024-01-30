@@ -26,8 +26,8 @@
     "last 2 versions"
   ],
   "devDependencies": {
-    "autoprefixer": "^9.8.4",
+    "autoprefixer": "^10.4.17",
     "gulp": "^4.0.2",
-    "gulp-postcss": "^8.0.0"
+    "gulp-postcss": "^9.1.0"
   }
 }
